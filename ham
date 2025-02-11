@@ -1,1 +1,514 @@
+-- Tải DiscordLib thư viện với toàn bộ cú pháp
+thành công cục bộ, DiscordLib = pcall(function()
+    trả về loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord"))()
+kết thúc)
+nếu không thành công thì
+    Warn("Không thể tải DiscordLib!")
+    trở lại
+kết thúc
 
+chiến thắng cục bộ = DiscordLib:Window("Pop hub")
+
+------------------------------
+-- Máy chủ: ⭐️Meme Adventure⭐️
+------------------------------
+máy chủ cục bộ = win:Server("⭐️Meme Adventure⭐️", "")
+thả cục bộ = serv:Kênh("Chính")
+
+-- Giết khí
+drops:Button("giết aura", function()
+    getgenv().G = đúng
+    getgenv().Creator = 'https://discord.gg/B3HqPPzFYr - HalloweenGaster'
+    sinh ra(hàm()
+        trong khi getgenv().G và getgenv().Creator == 'https://discord.gg/B3HqPPzFYr - HalloweenGaster' làm
+            chờ đợi(0.9)
+            sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 112412400000)
+            sethiddenproperty(game.Players.LocalPlayer, "MaxSimulationRadius", 112412400000)
+            đối với _, d theo cặp (game.Workspace:GetDescendants()) thì
+                nếu d:IsA("Humanoid") và d.Parent.Name ~= game.Players.LocalPlayer.Name thì
+                    d. Sức khỏe = 0
+                kết thúc
+            kết thúc
+        kết thúc
+    kết thúc)
+kết thúc)
+
+-- Tắt hào quang giết chóc
+drops:Button("tắt sát khí", function()
+    getgenv().G = sai
+    getgenv().Creator = 'https://discord.gg/B3HqPPzFYr - HalloweenGaster'
+    -- Nếu cần xử lý thêm, bạn có thể đặt thêm mã tại đây
+kết thúc)
+
+-- Năng suất Inf
+thả: Nút("inf yield", hàm()
+    loadstring(trò chơi:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+kết thúc)
+
+------------------------------
+-- Kênh: mũ bảo hiểm
+------------------------------
+cục bộ dropsHelmet = serv:Channel("mũ bảo hiểm")
+dropsHelmet:Button("sử dụng tất cả mũ bảo hiểm", function()
+    sinh ra(hàm()
+        trong khi chờ() làm
+            rs cục bộ = trò chơi:GetService("ReplicatedStorage").OtherThing.Tools
+            rs:FireServer("Quả cầu linh hồn bị nguyền rủa khổng lồ", "Áo giáp")
+            rs:FireServer("Đầu Doge Magma", "Áo giáp")
+            rs:FireServer("Đầu Bozoi vàng", "Áo giáp")
+            rs:FireServer("Đầu Floppa Lớn", "Giáp")
+            rs:FireServer("Đầu Hư Không", "Giáp")
+            rs:FireServer("Xe đạp đầu lâu", "Giáp")
+            rs:FireServer("Mũ Walter", "Áo giáp")
+            rs:FireServer("Đầu Thế Giới", "Áo Giáp")
+            rs:FireServer("Đầu chó Walter", "Áo giáp")
+            rs:FireServer("Đầu khổng lồ run rẩy", "Áo giáp")
+            rs:FireServer("Đầu Dark Maxwell", "Giáp")
+            rs:FireServer("Đầu Fraudkuna", "Giáp")
+            rs:FireServer("Đầu Nerd", "Áo giáp")
+            rs:FireServer("Bịt mắt", "Áo giáp")
+            rs:FireServer("Giáp của Chúa Mèo Huyền Thoại", "Giáp")
+            rs:FireServer("Giáp của Chúa tể mèo huyền thoại", "Mũ bảo hiểm")
+            rs:FireServer("Giáp của Chúa tể mèo huyền thoại", "Mũ bảo hiểm")
+            rs:FireServer("Giáp của Chúa tể mèo huyền thoại", "Mũ bảo hiểm")
+        kết thúc
+    kết thúc)
+kết thúc)
+
+------------------------------
+-- Kênh: câu cá
+------------------------------
+cục bộ dropsFishing = serv:Channel("câu cá")
+hàm cục bộ startFishing(remotePath, eventName)
+    getgenv().FishingEnabled = đúng
+    getgenv().Creator = 'https://discord.gg/B3HqPPzFYr - HalloweenGaster'
+    đối số cục bộ = { [1] = "Câu cá1" }
+    sinh ra(hàm()
+        trong khi getgenv().FishingEnabled và getgenv().Creator == 'https://discord.gg/B3HqPPzFYr - HalloweenGaster' làm
+            -- Use pcall để tránh lỗi nếu object chưa sẵn sàng
+            pcall(hàm()
+                remotePath.RemoteEvent:FireServer(giải nén(đối số))
+            kết thúc)
+            chờ đợi(0.1)
+        kết thúc
+    kết thúc)
+kết thúc
+
+dropsFishing:Button("câu cá sa mạc", function()
+    startFishing(game:GetService("Người chơi").LocalPlayer.Character.Fishing.Desert, "Fishing1")
+kết thúc)
+
+dropsFishing:Button("câu cá dung nham", function()
+    startFishing(game:GetService("Người chơi").LocalPlayer.Character.Fishing.Lava, "Fishing1")
+kết thúc)
+
+dropsFishing:Button("câu cá tuyết", hàm()
+    startFishing(game:GetService("Người chơi").LocalPlayer.Character.Fishing.Snow, "Fishing1")
+kết thúc)
+
+-- Tự động nhấp vào yêu cầu đá quý
+dropsFishing:Button("tự động nhấp vào yêu cầu đá quý", hàm()
+    getgenv().G = đúng
+    getgenv().Creator = 'https://discord.gg/B3HqPPzFYr - HalloweenGaster'
+    người chơi cục bộ = trò chơi.Người chơi.Người chơi cục bộ
+    ký tự cục bộ = player.Character hoặc player.CharacterAdded:Wait()
+    ký tự:WaitForChild("HumanoidRootPart")
+    hàm cục bộ activatePrompts()
+        đối với _, nhắc trong ipairs(workspace:GetDescendants()) thực hiện
+            nếu nhắc: IsA("ProximityPrompt") thì
+                dấu nhắc cục bộPos = nil
+                nếu prompt.Parent và prompt.Parent:IsA("Model") và prompt.Parent.PrimaryPart thì
+                    promptPos = prompt.Parent.PrimaryPart.Position
+                elseif prompt.Parent và prompt.Parent:IsA("BasePart") thì
+                    promptPos = prompt.Parent.Position
+                khác
+                    pcall(hàm() promptPos = prompt.Parent.Position kết thúc)
+                kết thúc
+                nếu promptPos thì
+                    khoảng cách cục bộ = (character.HumanoidRootPart.Position - promptPos).Độ lớn
+                    nếu khoảng cách <= prompt.MaxActivationDistance thì
+                        fireproximityprompt(nhắc nhở)
+                        print("Đã kích hoạt ProximityPrompt: " .. nhắc.Name)
+                    kết thúc
+                kết thúc
+            kết thúc
+        kết thúc
+    kết thúc
+    sinh ra(hàm()
+        trong khi getgenv().G và getgenv().Creator == 'https://discord.gg/B3HqPPzFYr - HalloweenGaster' làm
+            kích hoạtPrompts()
+            chờ đợi(0.5)
+        kết thúc
+    kết thúc)
+kết thúc)
+
+dropsFishing:Button("tắt yêu cầu gem", function()
+    getgenv().G = sai
+    getgenv().Creator = 'https://discord.gg/B3HqPPzFYr - HalloweenGaster'
+kết thúc)
+
+dropsFishing:Button("tắt tất cả các câu cá", function()
+    getgenv().FishingEnabled = sai
+kết thúc)
+
+------------------------------
+-- Kênh: không có thời gian hồi chiêu
+------------------------------
+cục bộ dropsNoCD = serv:Channel("không có thời gian hồi chiêu")
+
+-- sử dụng ngay kỹ năng 1
+dropsNoCD:Button("sử dụng ngay kỹ năng 1", hàm()
+    người chơi cục bộ = trò chơi.Người chơi.Người chơi cục bộ
+    ký tự cục bộ = player.Character hoặc player.CharacterAdded:Wait()
+    công cụ cục bộ = ký tự:FindFirstChildOfClass("Công cụ")
+    nếu công cụ và công cụ:FindFirstChild("1") thì
+        remoteEvent cục bộ = tool["1"]:FindFirstChild("RemoteEvent")
+        nếu remoteEvent thì
+            Sự kiện từ xa: FireServer()
+            print("Skill 1 đã được kích hoạt thông qua RemoteEvent!")
+        khác
+            Warn("Không thể tìm thấy RemoteEvent trong Công cụ!")
+        kết thúc
+    khác
+        Warn("Người chơi chưa cầm dụng cụ hoặc Công cụ không tìm thấy.")
+    kết thúc
+kết thúc)
+
+-- sử dụng ngay kỹ năng 2
+dropsNoCD:Button("sử dụng ngay kỹ năng 2", hàm()
+    người chơi cục bộ = trò chơi.Người chơi.Người chơi cục bộ
+    ký tự cục bộ = player.Character hoặc player.CharacterAdded:Wait()
+    công cụ cục bộ = ký tự:FindFirstChildOfClass("Công cụ")
+    nếu công cụ và công cụ:FindFirstChild("2") thì
+        remoteEvent cục bộ = tool["2"]:FindFirstChild("RemoteEvent")
+        nếu remoteEvent thì
+            Sự kiện từ xa: FireServer()
+            print("Skill 2 đã được kích hoạt thông qua RemoteEvent!")
+        khác
+            Warn("Không thể tìm thấy RemoteEvent trong Công cụ!")
+        kết thúc
+    khác
+        Warn("Người chơi chưa cầm dụng cụ hoặc Công cụ không tìm thấy.")
+    kết thúc
+kết thúc)
+
+-- sử dụng ngay kỹ năng 3
+dropsNoCD:Button("sử dụng ngay kỹ năng 3", hàm()
+    người chơi cục bộ = trò chơi.Người chơi.Người chơi cục bộ
+    ký tự cục bộ = player.Character hoặc player.CharacterAdded:Wait()
+    công cụ cục bộ = ký tự:FindFirstChildOfClass("Công cụ")
+    nếu công cụ và công cụ:FindFirstChild("3") thì
+        remoteEvent cục bộ = tool["3"]:FindFirstChild("RemoteEvent")
+        nếu remoteEvent thì
+            Sự kiện từ xa: FireServer()
+            print("Skill 3 đã được kích hoạt thông qua RemoteEvent!")
+        khác
+            Warn("Không thể tìm thấy RemoteEvent trong Công cụ!")
+        kết thúc
+    khác
+        Warn("Người chơi chưa cầm dụng cụ hoặc Công cụ không tìm thấy.")
+    kết thúc
+kết thúc)
+
+------------------------------
+-- Kênh: dịch chuyển tức thời
+------------------------------
+giọt cục bộTeleports = serv:Channel("teleports")
+
+giọtDịch chuyển: Nút("đảo chad", hàm()
+    người chơi cục bộ = trò chơi.Người chơi.Người chơi cục bộ
+    ký tự cục bộ = player.Character hoặc player.CharacterAdded:Wait()
+    vị trí mục tiêu cục bộ = Vector3.new(-709, 10, 509)
+    ký tự: SetPrimaryPartCFrame(CFrame.new(targetPosition))
+kết thúc)
+
+giọtDịch chuyển: Nút("đảo não lớn", hàm()
+    người chơi cục bộ = trò chơi.Người chơi.Người chơi cục bộ
+    ký tự cục bộ = player.Character hoặc player.CharacterAdded:Wait()
+    vị trí mục tiêu cục bộ = Vector3.new(556, 10, 506)
+    ký tự: SetPrimaryPartCFrame(CFrame.new(targetPosition))
+kết thúc)
+
+giọtDịch chuyển: Nút("kenjaku", function()
+    người chơi cục bộ = trò chơi.Người chơi.Người chơi cục bộ
+    ký tự cục bộ = player.Character hoặc player.CharacterAdded:Wait()
+    vị trí mục tiêu cục bộ = Vector3.new(5217.044921875, 2260.821533203125, -4130.38330078125)
+    ký tự: SetPrimaryPartCFrame(CFrame.new(targetPosition))
+kết thúc)
+
+giọtDịch chuyển: Nút("đảo sa mạc", hàm()
+    người chơi cục bộ = trò chơi.Người chơi.Người chơi cục bộ
+    ký tự cục bộ = player.Character hoặc player.CharacterAdded:Wait()
+    vị trí mục tiêu cục bộ = Vector3.new(-340.91278076171875, 18.29494857788086, -997.4833374023438)
+    ký tự: SetPrimaryPartCFrame(CFrame.new(targetPosition))
+kết thúc)
+
+dropsTeleports:Button("câu cá sa mạc", function()
+    người chơi cục bộ = trò chơi.Người chơi.Người chơi cục bộ
+    ký tự cục bộ = player.Character hoặc player.CharacterAdded:Wait()
+    vị trí mục tiêu cục bộ = Vector3.new(890.1141967773438, 9.118748664855957, -828.7176513671875)
+    ký tự: SetPrimaryPartCFrame(CFrame.new(targetPosition))
+kết thúc)
+
+giọtDịch chuyển: Nút("cabybara boss", function()
+    người chơi cục bộ = trò chơi.Người chơi.Người chơi cục bộ
+    ký tự cục bộ = player.Character hoặc player.CharacterAdded:Wait()
+    vị trí mục tiêu cục bộ = Vector3.new(5432.73046875, 1755.6904296875, 610.4720458984375)
+    ký tự: SetPrimaryPartCFrame(CFrame.new(targetPosition))
+kết thúc)
+
+dropsTeleports:Button("maxwell boss", function()
+    người chơi cục bộ = trò chơi.Người chơi.Người chơi cục bộ
+    ký tự cục bộ = player.Character hoặc player.CharacterAdded:Wait()
+    vị trí mục tiêu cục bộ = Vector3.new(-14569.0859375, 4700.61181640625, -3191.745361328125)
+    ký tự: SetPrimaryPartCFrame(CFrame.new(targetPosition))
+kết thúc)
+
+giọtDịch chuyển: Nút("đảo magma", hàm()
+    người chơi cục bộ = trò chơi.Người chơi.Người chơi cục bộ
+    ký tự cục bộ = player.Character hoặc player.CharacterAdded:Wait()
+    vị trí mục tiêu cục bộ = Vector3.new(2801.695556640625, 11.266153335571289, -180.07965087890625)
+    ký tự: SetPrimaryPartCFrame(CFrame.new(targetPosition))
+kết thúc)
+
+-- (Các nút Teleport khác được giữ nguyên cấu trúc tương tự)
+-- … (ví dụ: rương đá, diavolo, cây magma, let me do it boss, câu cá bằng dung nham, đảo tuyết, câu cá trên tuyết, thành phố misaka, phòng chiến đấu dagon, miền dagon, phòng chiến đấu mahito, miền mahito)
+
+------------------------------
+-- Máy chủ: ⭐️Việt Nam Piece⭐️
+------------------------------
+local serv2 = win:Server("⭐️Việt Nam Piece⭐️", "")
+dropsVN cục bộ = serv2:Channel("main")
+
+dropsVN:Button("giết aura", hàm()
+    getgenv().G = đúng
+    getgenv().Creator = 'https://discord.gg/B3HqPPzFYr - HalloweenGaster'
+    sinh ra(hàm()
+        trong khi getgenv().G và getgenv().Creator == 'https://discord.gg/B3HqPPzFYr - HalloweenGaster' làm
+            chờ đợi(0.9)
+            sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 112412400000)
+            sethiddenproperty(game.Players.LocalPlayer, "MaxSimulationRadius", 112412400000)
+            đối với _, d theo cặp (game.Workspace:GetDescendants()) thì
+                nếu d:IsA("Humanoid") và d.Parent.Name ~= game.Players.LocalPlayer.Name thì
+                    d. Sức khỏe = 0
+                kết thúc
+            kết thúc
+        kết thúc
+    kết thúc)
+kết thúc)
+
+dropsVN:Button("gián điệp đơn giản", hàm()
+    chuỗi tải(trò chơi:HttpGet("https://raw.githubusercontent.com/realredz/SimpleSpy/refs/heads/main/Mobile.lua"))()
+kết thúc)
+
+dropsVN:Button("rùa gián điệp", hàm()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Turtle-Brand/Turtle-Spy/main/source.lua", đúng))()
+kết thúc)
+
+dropsVN:Button("inf yield", hàm()
+    loadstring(trò chơi:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+kết thúc)
+
+cục bộ dropsArmors = serv2:Channel("armors")
+dropsArmors:Button("sao chép toàn bộ giáp của sv", function()
+    Người chơi cục bộ = trò chơi:GetService("Người chơi")
+    giáp địa phương = {"Áo giáp bị nguyền rủa", "Áo giáp độc nhất", "Áo giáp bóng tối", "Áo giáp sấm sét", "Áo giáp sấm sét", "Áo giáp kim cương", "Áo giáp vàng", "Áo giáp sử thi", "Áo giáp sắt", "Áo giáp gỗ"}
+    đối với _, người chơi theo cặp (Players:GetPlayers()) làm
+        ba lô cục bộ = player:FindFirstChild("Ba lô")
+        nếu ba lô thì
+            đối với _, armorName theo cặp(áo giáp) làm
+                giáp cục bộ = ba lô:FindFirstChild(armorName)
+                nếu giáp và giáp:FindFirstChild("K") và giáp.K:FindFirstChild("Fire") thì
+                    áo giáp.K.Fire:FireServer()
+                kết thúc
+            kết thúc
+        kết thúc
+    kết thúc
+kết thúc)
+
+cục bộ dropsFastAttack = serv2:Channel("tấn công nhanh")
+
+-- Ví dụ nút “cid”
+dropsFastAttack:Nút("cid", hàm()
+    đối số cục bộ = { [1] = 8, [2] = 1 }
+    sinh ra(hàm()
+        trong khi đúng là làm
+            pcall(hàm()
+                trò chơi: GetService("Người chơi").LocalPlayer.PlayerGui.Tengen.Skill1b.Z.TextButtonm1.Hitbox:FireServer(giải nén(đối số))
+            kết thúc)
+            chờ đợi(0.1)
+        kết thúc
+    kết thúc)
+kết thúc)
+
+-- Nút “geto”
+dropsFastAttack:Nút("geto", hàm()
+    đối số cục bộ = { [1] = 8, [2] = 1 }
+    sinh ra(hàm()
+        trong khi đúng là làm
+            pcall(hàm()
+                trò chơi: GetService("Người chơi").LocalPlayer.PlayerGui.Tengen.Skill1b.Z.TextButtonm1.Hitbox:FireServer(giải nén(đối số))
+            kết thúc)
+            chờ đợi(0.1)
+        kết thúc
+    kết thúc)
+kết thúc)
+
+-- Nút “ruột”
+dropsFastAttack:Button("ruột", hàm()
+    đối số cục bộ = { [1] = 8, [2] = 1 }
+    sinh ra(hàm()
+        trong khi đúng là làm
+            pcall(hàm()
+                trò chơi: GetService("Người chơi").LocalPlayer.PlayerGui.Zabuza.Skill1b.Z.TextButtonm1.Hitbox:FireServer(giải nén(đối số))
+            kết thúc)
+            chờ đợi(0.1)
+        kết thúc
+    kết thúc)
+kết thúc)
+
+-- Nút "escanor" (sửa lỗi thiếu kết thúc và thêm spawn)
+dropsFastAttack:Button("escanor", hàm()
+    đối số cục bộ = { [1] = 8, [2] = 1 }
+    sinh ra(hàm()
+        trong khi đúng là làm
+            pcall(hàm()
+                trò chơi: GetService("Người chơi").LocalPlayer.PlayerGui.Zabuza.Skill1b.Z.TextButtonm1.Hitbox:FireServer(giải nén(đối số))
+            kết thúc)
+            chờ đợi(0.1)
+        kết thúc
+    kết thúc)
+kết thúc)
+
+-- Nút “yorus v3”
+dropsFastAttack:Button("yorus v3", hàm()
+    đối số cục bộ = { [1] = 8, [2] = 3 }
+    sinh ra(hàm()
+        trong khi đúng là làm
+            pcall(hàm()
+                trò chơi: GetService("Người chơi").LocalPlayer.PlayerGui.YoruV3.Skill1b.Z.TextButtonm1.Hitbox:FireServer(giải nén(đối số))
+            kết thúc)
+            chờ đợi(0.1)
+        kết thúc
+    kết thúc)
+kết thúc)
+
+thả cục bộ = serv2:Channel("quest")
+
+drops:Button("bạn có thể nhận được nhiệm vụ 500k ở cấp độ 20k lol", function()
+kết thúc)
+
+drops:Button("click vào npc và click vào nhiệm vụ 1,2,3", function()
+kết thúc)
+
+thả: Nút("nhiệm vụ 1", hàm()
+-- Kịch bản 3: Chấp nhận nhiệm vụ 1
+trong khi chờ() làm
+    trò chơi: GetService("Người chơi").LocalPlayer.PlayerGui.QuestTake.Accept1.RemoteEvent:FireServer()
+kết thúc
+kết thúc)
+
+thả: Nút("nhiệm vụ 2", hàm()
+-- Kịch bản 2: Chấp nhận nhiệm vụ 2
+trong khi chờ() làm
+    trò chơi: GetService("Người chơi").LocalPlayer.PlayerGui.QuestTake.Accept2.RemoteEvent:FireServer()
+kết thúc
+kết thúc)
+
+thả: Nút("nhiệm vụ 3", hàm()
+-- Kịch bản 1: Chấp nhận nhiệm vụ 3
+trong khi chờ() làm
+    trò chơi: GetService("Người chơi").LocalPlayer.PlayerGui.QuestTake.Accept3.RemoteEvent:FireServer()
+kết thúc
+kết thúc)
+
+cục bộ dropsRandom = serv2:Channel("bí mật ngẫu nhiên")
+dropsRandom:Button("nếu tập lệnh không hoạt động, hãy đến hòn đảo đó", function()
+    -- Không có hành động nào
+kết thúc)
+
+dropsRandom:Button("biển bí mật 1", hàm()
+    sinh ra(hàm()
+        trong khi đúng là làm
+            pcall(hàm()
+                fireclickdetector(game:GetService("Workspace").MAP["ĐẢO STARTER [Lv 1+ ]"]["Bí mật ngẫu nhiên"].NGẪU NHIÊN)
+            kết thúc)
+            chờ đợi(0.1)
+        kết thúc
+    kết thúc)
+kết thúc)
+
+dropsRandom:Button("biển bí mật 2", hàm()
+    sinh ra(hàm()
+        trong khi đúng là làm
+            pcall(hàm()
+                fireclickdetector(game:GetService("Workspace").MAP["ĐẢO STARTER [Lv 1+ ]"]["Bí mật ngẫu nhiên"].NGẪU NHIÊN)
+            kết thúc)
+            chờ đợi(0.1)
+        kết thúc
+    kết thúc)
+kết thúc)
+
+dropsRandom:Button("yorus v3", hàm()
+    sinh ra(hàm()
+        trong khi đúng là làm
+            clickDetector cục bộ = game.Workspace:FindFirstChild("MAP")
+                và trò chơi.Workspace.MAP:FindFirstChild("ĐẢO DAK [Cấp độ 1350+]")
+                và trò chơi.Workspace.MAP["ĐẢO DAK [Lv 1350+]"]:FindFirstChild("Yoru V3 ngẫu nhiên")
+                và trò chơi.Workspace.MAP["ĐẢO DAK [Cấp độ 1350+]"]["Yoru V3 ngẫu nhiên"]:FindFirstChild("ClickDetector")
+            nếu clickDetector thì
+                máy dò nhấp chuột (clickDetector)
+            khác
+                Warn("ClickDetector không tìm thấy!")
+            kết thúc
+            chờ đợi(0.1)
+        kết thúc
+    kết thúc)
+kết thúc)
+
+dropsRandom:Button("wando sea 2", function()
+    sinh ra(hàm()
+        trong khi đúng là làm
+            clickDetector cục bộ = game.Workspace:FindFirstChild("Thị trấn Bạch kim [ 2000 - 3000 ]")
+                và trò chơi.Workspace["Platinum Town [ 2000 - 3000 ]"]:FindFirstChild("PlatinumMAP")
+                và trò chơi.Workspace["Platinum Town [ 2000 - 3000 ]"].PlatinumMAP:FindFirstChild("GodBox")
+                và trò chơi.Workspace["Platinum Town [ 2000 - 3000 ]"].PlatinumMAP.GodBox:FindFirstChild("ClickDetector")
+            nếu clickDetector thì
+                máy dò nhấp chuột (clickDetector)
+            khác
+                Warn("ClickDetector không tìm thấy!")
+            kết thúc
+            chờ đợi(0.1)
+        kết thúc
+    kết thúc)
+kết thúc)
+
+thả cục bộ = serv2:Kênh("dịch chuyển tức thời")
+
+giọt: Nút("biển 1👇", hàm()
+kết thúc)
+
+drops:Button("đảo bắt đầu", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(485.583771, 35.5632935, -511.945404)
+
+kết thúc)
+
+drops:Button("đảo tuyết", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-915.918945, 33.7605095, 282.443604)
+
+kết thúc)
+
+drops:Button("đảo cát", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-708.765259, 69.1108398, 1745.13916)
+
+kết thúc)
+
+drops:Button("sky island ", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4594.52393, 4279.44092, 474.423523)
+
+kết thúc)
+
+drops:Button("kết thúc đảo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2223.75146, 36.3414612, 1965.90369)
+
+kết thúc)
